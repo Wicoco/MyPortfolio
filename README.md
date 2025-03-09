@@ -14,38 +14,43 @@ Ce projet est mon portfolio personnel, développé avec [Next.js](https://nextjs
 
 ## 📂 Structure du Projet
 ```
-wicoco-myportfolio/
-├── README.md
-├── jsconfig.json
-├── next.config.js
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-├── .eslintrc.json
-├── app/
-│   ├── layout.js
-│   ├── page.jsx
-│   └── constants/
-│       └── index.js
-├── components/
-│   ├── About.jsx
-│   ├── Contact.jsx
-│   ├── Divider.jsx
-│   ├── Experiences.jsx
-│   ├── Footer.jsx
-│   ├── Hero.jsx
-│   ├── Nav.jsx
-│   ├── Project.jsx
-│   ├── ScrollTopTop.js
-│   └── Skills.jsx
-├── public/
-│   └── assets/
-│       ├── Skills/
-│       ├── icons/
-│       └── images/
-│           └── twitter.webp
-└── styles/
-    └── globals.css
+Directory structure:
+└── wicoco-myportfolio/
+    ├── README.md
+    ├── jsconfig.json
+    ├── next.config.js
+    ├── package.json
+    ├── postcss.config.js
+    ├── tailwind.config.js
+    ├── .eslintrc.json
+    ├── app/
+    │   ├── layout.js
+    │   ├── page.jsx
+    │   ├── api/
+    │   │   └── contact/
+    │   │       └── route.js
+    │   └── constants/
+    │       └── index.js
+    ├── components/
+    │   ├── About.jsx
+    │   ├── Contact.jsx
+    │   ├── Divider.jsx
+    │   ├── Experiences.jsx
+    │   ├── Footer.jsx
+    │   ├── Hero.jsx
+    │   ├── Nav.jsx
+    │   ├── Project.jsx
+    │   ├── ScrollTopTop.js
+    │   └── Skills.jsx
+    ├── public/
+    │   └── assets/
+    │       ├── Skills/
+    │       ├── icons/
+    │       └── images/
+    │           └── twitter.webp
+    └── styles/
+        └── globals.css
+
 ```
 
 ## 🚀 Démarrage
