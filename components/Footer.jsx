@@ -44,7 +44,7 @@ const Footer = () => {
     <footer className="bg-transparent w-full text-gray-600 py-10">
       <div className="container grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-10">
         <div className="text-left">
-          <h2 className="text-xl font-semibold mb-2">Voctor Fernel</h2>
+          <h2 className="text-xl font-semibold mb-2">Victor Fernel</h2>
           <p className="text-sm">Developer Fullstack</p>
         </div>
         <div>
